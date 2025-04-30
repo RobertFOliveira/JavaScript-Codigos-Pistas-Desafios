@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <form></form>
+</head>
+
+<body>
+    <h1 style="color: blue;">CAÇA AO TESOURO</h1>
+    <form action="Aula Formulario2.html" method="POST" enctype="multipart/form-data">
+        
+        <div>
+            <label for="Pista 1">Desafio 1</label><br>
+            <label for="Soma1">Em uma escola, há 1.327 alunos estudando no turno da manhã e 542 estudando no turno da
+                tarde. Quantos alunos há nesta escola no total?</label><br>
+            <br>
+            <label for="V">1.869</label>
+            <input type="radio" id="1" name="Soma1" value="1.869">
+            <label for="F">2.869</label>
+            <input type="radio" id="2" name="Soma1" value="2.869">
+            <label for="F">1.569</label>
+            <input type="radio" id="3" name="Soma1" value="1.569">
+            <br>
+        </div>
+        <br>
+        <button type="button" onclick="Pista1()">Mostrar Resposta</button>
+        <div>
+            <hr>
+            <label for="Pista 1">Desafio 2</label><br>
+            <label for="Soma1">Um padeiro fez 35 pães. No final do dia, sobraram 12 pães. Quantos pães foram
+                vendidos?</label><br>
+            <br>
+            <label for="F">57</label>
+            <input type="radio" name="Soma1" value="57">
+            <label for="V">47</label>
+            <input type="radio" name="Soma1" value="47">
+            <label for="F">37</label>
+            <input type="radio" name="Soma1" value="37">
+            <br>
+        </div>
+        <br>
+        <button type="button"  onclick="Pista2()">Mostrar Resposta</button>
+        
+        <div>
+            <hr>
+            <label for="Pista 3">Desafio 3</label><br>
+            <label for="Soma1">Complete a frase com verbo no passado: Ontem, eu _____ (fui, vou, ia) ao parque com meus
+                amigos.</label><br>
+            <br>
+            <label for="V">fui</label>
+            <input type="radio" name="Soma1" value="fui">
+            <label for="F">vou</label>
+            <input type="radio" name="Soma1" value="vou"> 
+            <label for="F">ia</label>
+            <input type="radio" name="Soma1" value="ia">
+            <br>
+        </div>
+        <br>
+        <button type="button" onclick="Pista3()">Mostrar Resposta</button>
+
+        <div>
+            <hr>
+            <label for="Pista 4">Desafio 4</label><br>
+            <label for="Soma1">Uma caixa contém 7 maçãs e João comprou 9 caixas. Quantas maçãs João tem?</label><br>
+            <br>
+            <label for="V">63</label>
+            <input type="radio" name="Soma1" value="63">
+            <label for="F">42</label>
+            <input type="radio" name="Soma1" value="42"> 
+            <label for="F">72</label>
+            <input type="radio" name="Soma1" value="72">
+            <br>
+        </div>
+        <br>
+        <button type="button" onclick="Pista4()">Mostrar Resposta</button>
+
+         <div>
+            <hr>
+            <label for="Pista 5">Desafio 5</label><br>
+            <label for="Soma1">Complete a frase usando a palavra correta para o artigo (o, a, um): A professora deu _____ livro para cada aluno.</label><br>
+            <br>
+            <label for="F">o</label>
+            <input type="radio" name="Soma1" value="o">
+            <label for="F">a</label>
+            <input type="radio" name="Soma1" value="A"> 
+            <label for="V">um</label>
+            <input type="radio" name="Soma1" value="um">
+            <br>
+        </div>
+        <br>
+        <button type="button" onclick="Pista5()">Mostrar Resposta</button>
+
+        <div>
+            <hr>
+            <label for="Pista 6">Desafio 6</label><br>
+            <label for="Soma1">Hélio tem 81 figurinhas e quer distribuí-las igualmente entre 9 páginas do seu álbum. Quantas figurinhas cada página terá?</label><br>
+            <br>
+            <label for="F">7</label>
+            <input type="radio" name="Soma1" value="7">
+            <label for="F">6</label>
+            <input type="radio" name="Soma1" value="6"> 
+            <label for="V">9</label>
+            <input type="radio" name="Soma1" value="9">
+            <br>
+        </div>
+        <br>
+        <button type="button" onclick="Pista6()">Mostrar Resposta</button>
+
+        <div>
+            <hr>
+            <label for="Pista 7">Desafio 7</label><br>
+            <label for="Soma1">Um carro percorre 60 km em 1 hora. Quantos quilômetros ele percorrerá em 4 horas?</label><br>
+            <br>
+            <label for="F">200</label>
+            <input type="radio" name="Soma1" value="200">
+            <label for="V">240</label>
+            <input type="radio" name="Soma1" value="240"> 
+            <label for="F">220</label>
+            <input type="radio" name="Soma1" value="220">
+            <br>
+        </div>
+        <br>
+        <button type="button" onclick="Pista7()">Mostrar Resposta</button>
+
+
+        <div>
+            <hr>
+            <label for="Pista 8">Desafio 8</label><br>
+            <label for="Soma1">Complete a frase com a palavra que melhor se encaixa: Hoje estou _____ (feliz, felizmente, felicidade) porque ganhei um presente.</label><br>
+            <br>
+            <label for="V">feliz</label>
+            <input type="radio" name="Soma1" value="feliz">
+            <label for="F">felizmente</label>
+            <input type="radio" name="Soma1" value="felizmente"> 
+            <label for="F">felicidade</label>
+            <input type="radio" name="Soma1" value="felicidade">
+            <br>
+        </div>
+        <br>
+        <button type="button" onclick="Pista8()">Mostrar Resposta</button>
+
+
+        <div>
+            <hr>
+            <label for="Pista 9">Desafio 9</label><br>
+            <label for="Soma1">Pedro tem 120 canetas e quer dividir igualmente entre seus 4 amigos. Quantas canetas cada amigo receberá?</label><br>
+            <br>
+            <label for="V">30</label>
+            <input type="radio" name="Soma1" value="30">
+            <label for="F">40</label>
+            <input type="radio" name="Soma1" value="40"> 
+            <label for="F">20</label>
+            <input type="radio" name="Soma1" value="20">
+            <br>
+        </div>
+        <br>
+        <button type="button" onclick="Pista9()">Mostrar Resposta</button>
+
+        <div>
+            <hr>
+            <label for="Pista 10">Desafio 10</label><br>
+            <label for="Soma1">Complete a frase com a palavra que melhor se encaixa: O sol _____ (brilha, brilhava, brilhou) no céu durante o dia</label><br>
+            <br>
+            <label for="V">brilha</label>
+            <input type="radio" name="Soma1" value="brilha">
+            <label for="F">brilhava</label>
+            <input type="radio" name="Soma1" value="brilhava"> 
+            <label for="F">brilhou</label>
+            <input type="radio" name="Soma1" value="brilhou">
+            <br>
+        </div>
+        <br>
+        <button type="button" onclick="Pista10()">Mostrar Resposta</button>
+
+        <div>
+            <hr>
+            <label for="Pista 11">Desafio 11</label><br>
+            <label for="Soma1">Maiara fez uma avaliação de Matemática onde cada questão valia 3 pontos. Sabendo que ela acertou 16 questões, qual foi a pontuação de Maiara?</label><br>
+            <br>
+            <label for="F">36</label>
+            <input type="radio" name="Soma1" value="36">
+            <label for="F">42</label>
+            <input type="radio" name="Soma1" value="42"> 
+            <label for="V">48</label>
+            <input type="radio" name="Soma1" value="48">
+            <br>
+        </div>
+        <br>
+        <button type="button" onclick="Pista11()">Mostrar Resposta</button>
+
+      
+        <div>
+            <hr>
+            <label for="Pista 12">Desafio 12</label><br>
+            <label for="Soma1">Complete a frase com a palavra que melhor se encaixa: No final de semana, nós _____ (assistir, assistimos, assiste) a um filme juntos.</label><br>
+            <br>
+            <label for="V">assistimos</label>
+            <input type="radio" name="Soma1" value="assistimos">
+            <label for="F">assistir</label>
+            <input type="radio" name="Soma1" value="assistir"> 
+            <label for="F">assiste</label>
+            <input type="radio" name="Soma1" value="assiste">
+            <br>
+        </div>
+        <br>
+        <button type="button" onclick="Pista12()">Mostrar Resposta</button>  
+
+        <div>
+            <hr>
+            <label for="Pista 13">Desafio 13</label><br>
+            <label for="Soma1">No zoológico Municipal de Fortaleza Sargento Prata  há 6 macacos que consomem juntos 54 bananas todos os dias. Quantas bananas come cada macaco diariamente, sabendo que todos comem a mesma quantidade?</label><br>
+            <br>
+            <label for="F">7</label>
+            <input type="radio" name="Soma1" value="7">
+            <label for="F">6</label>
+            <input type="radio" name="Soma1" value="6"> 
+            <label for="V">9</label>
+            <input type="radio" name="Soma1" value="9">
+            <br>
+        </div>
+        <br>
+        <button type="button" onclick="Pista13()">Mostrar Resposta</button>
+
+
+
+
+
+
+    </form>
+    <script src="Desafio2.js"></script>
+
+</body>
+
+</html>

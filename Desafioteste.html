@@ -1,0 +1,50 @@
+<!DOCTYPE html>  
+<html lang="pt-br">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Formulários com Radio Buttons</title>  
+    <style>  
+.radio-group {  
+            display: flex;  
+            flex-direction: column;  
+            align-items: center;  
+        }  
+.radio-group label {  
+            margin: 10px;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <div class="radio-group">  
+        <h2>Formulário 1: Escolha de Gênero</h2>  
+        <label for="male">Masculino</label>  
+        <input type="radio" name="gender" id="male" value="Masculino">  
+        <label for="female">Feminino</label>  
+        <input type="radio" name="gender" id="female" value="Feminino">  
+        <label for="non-binary">Não Binário</label>  
+        <input type="radio" name="gender" id="non-binary" value="Não Binário">  
+    </div>  
+    <div class="radio-group">  
+        <h2>Formulário 2: Escolha de Estilo</h2>  
+        <label for="rock">Rock</label>  
+        <input type="radio" name="style" id="rock" value="Rock">  
+        <label for="pop">Pop</label>  
+        <input type="radio" name="style" id="pop" value="Pop">  
+        <label for="rap">Rap</label>  
+        <input type="radio" name="style" id="rap" value="Rap">  
+    </div>  
+    <div class="radio-group">  
+        <h2>Formulário 3: Escolha de Pagamento</h2>  
+        <label for="credit">Cartão de Crédito</label>  
+        <input type="radio" name="payment" id="credit" value="Cartão de Crédito">  
+        <label for="debit">Cartão de Débito</label>  
+        <input type="radio" name="payment" id="debit" value="Cartão de Débito">  
+        <label for="paypal">PayPal</label>  
+        <input type="radio" name="payment" id="paypal" value="PayPal">  
+    </div>  
+
+    <button type="button" onclick="checkRadio()">Mostrar Resposta</button>
+    <script src="Desafioteste.js">  </script>  
+</body>  
+</html>  
